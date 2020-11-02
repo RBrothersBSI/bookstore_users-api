@@ -11,7 +11,7 @@ func GetNow() time.Time {
 	return time.Now().UTC()
 }
 
-func GetNowString() string {
+func GetNowString() string{
 	return GetNow().Format(apiDateLayout)
 }
 
